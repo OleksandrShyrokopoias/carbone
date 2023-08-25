@@ -24,7 +24,9 @@ button {
     max-width: 76vw;
     padding-left: 16px;
     padding-right: 16px;
-   
+}
+.container-right {
+    padding-left: calc(calc(100% - 76vw ) / 2 + 16px);
 }
 .herosection {
     background-color: #0F0F0F;
@@ -362,6 +364,54 @@ button {
     margin-bottom: 2.6vw;
     width: 5.2vw;
     height: 5.2vw;
+}
+//partners
+.partners {
+    padding: 6.77vw 0;
+    border-bottom: 1px solid  #32322F;
+    background: #0F0F0F;
+}
+.partners__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 9.72vw;
+    row-gap: 5.72vw; 
+}
+.partners__box-logo {
+    width: 10.93vw;
+    height: 2vw;
+}
+// step
+.step {
+    padding-bottom: 6.25vw;
+    background: #0F0F0F;
+    overflow-x: hidden;
+}
+.step__header {
+    padding-top: 7.8vw;
+    padding-bottom: 5.72vw;
+    display: flex;
+    gap: 10.9vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.step__title {
+    min-width: 36vw;
+    color: #F1F1F1;
+    font-size: 2.5vw;
+    font-weight: 600;
+    line-height: 120%; /* 57.6px */
+    letter-spacing: -0.48px;
+}
+.step__wrapper-technology-icon {
+    width: 56vw;
+    display: flex;
+    flex-shrink: 0;
+    gap: 3vw;
+}
+.step__box-technology-icon {
+    width: 6vw;
+    height: 1.4vw;
 }
 
 

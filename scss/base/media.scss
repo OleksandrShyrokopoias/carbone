@@ -3,6 +3,9 @@
     .container {
         max-width: none;
     }
+    .container-right {
+        padding-left: 16px;
+    }
     .header__container {
         position: relative;
         display: flex;
@@ -228,6 +231,33 @@
         margin-bottom: 30px;
         width: 105px;
         height: 102px;
+    }
+    //partners
+    .partners {
+       display: none;
+    }
+    // step
+    .step {
+        padding-bottom: 6.25vw;
+    }
+    .step__header {
+        padding-top: 82px;
+        padding-bottom: 116px;
+        flex-direction: column;
+        gap: 58px;
+        align-items: start;
+    }
+    .step__title {
+        width: auto;
+        font-size: 32px;
+    }
+    .step__wrapper-technology-icon {
+        width: auto;
+        gap: 60px;
+    }
+    .step__box-technology-icon {
+        width: 119px;
+        height: 28px;
     }
         
         
