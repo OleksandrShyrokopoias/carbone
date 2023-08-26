@@ -259,6 +259,37 @@
         width: 119px;
         height: 28px;
     }
+    .step__content {
+        display: flex;
+        gap: 12.6vw;
+    }
+    .step__content-list {
+        display: none;
+    }
+    .step__content-img {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+    }
+    .swiper {
+        display: block;
+    }
+    .swiper .step__list-text {
+        display: block;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        padding-left: 0;
+        font-size: 18px;
+    }
+    .swiper .step__list-link {
+        color: #CCC;
+        font-size: 18px;
+    }
+    .swiper .step__list-link:hover {
+        font-size: 18px;
+    }
+    
+    
         
         
         
