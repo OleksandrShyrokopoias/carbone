@@ -5,10 +5,35 @@ menuBtn.addEventListener('click', () => {
     menu.classList.toggle('menu__list-active');
 });
 
-const swiper = new Swiper('.swiper', {
-   
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+// //popup
+// Fancybox.bind("[data-fancybox]", {
+// });
+
+// const linkVideo = document.querySelector('.reviews__wrapper-video');
+// const videoPopup = document.querySelector('.video-popup');
+// const popupClose = document.querySelector('.popup-close');
+
+// linkVideo.onclick = function() {
+//   videoPopup.style.display = 'block';
+// };
+
+const swiper = new Swiper(".mySwiper", {
+  navigation: {
+    nextEl: '.swiper-button-right',
+    prevEl: '.swiper-button-left',
+  },
+});
+
+const swiperTime = new Swiper(".timelineSwiper", {
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
     },
-  });
+    991: {
+      slidesPerView: 4,
+      spaceBetween: 132,
+    }
+  }
+});
+
+    
