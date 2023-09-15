@@ -36,4 +36,12 @@ const swiperTime = new Swiper(".timelineSwiper", {
   }
 });
 
+const swiperCase = new Swiper('.case-swiper', {
+  loop: true,
+  slidesPerView: "auto",
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+
     
