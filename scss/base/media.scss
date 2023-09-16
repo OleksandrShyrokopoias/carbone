@@ -825,7 +825,7 @@
     .case__link {
         font-size: 16px;
     }
-    .case__link span {
+    .case__link svg {
         width: 24px;
         height: 24px;
         top: 6px;
@@ -837,6 +837,43 @@
     .case-swiper .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal{
         width: 100%;
     }
+    // post-herosection
+    .post-herosection {
+        padding: 50px 0;
+    }
+    .post-herosection__wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .post-herosection__img {
+        width: 100%;
+    }
+    .post-herosection__undertitle {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+    .post-herosection__title {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .post-herosection__box-autor {
+        margin-bottom: 75px;
+        gap: 12px;
+    }
+    .post-herosection__box-autor-img {
+        width: 56px;
+        height: 56px;
+    }
+    .post-herosection__autor-name {
+        font-size: 16px;
+    }
+    .post-herosection__autor-time {
+        font-size: 16px;
+    }
+
+
+
+
 
 
 

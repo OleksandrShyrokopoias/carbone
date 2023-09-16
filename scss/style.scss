@@ -777,6 +777,7 @@ button {
     width: 68vw;
     padding: 6.7vw 0 6.7vw 11.9vw;
     background: url(../img/image/lets-background.png) no-repeat;
+    background-size: cover;
 }
 .get-talk__title {
     margin-bottom: 3vw;
@@ -1335,7 +1336,7 @@ footer {
     line-height: 150%; /* 27px */
     border-bottom: 1px solid #0F0F0F;
 }
-.case__link span {
+.case__link svg {
     display: inline-block;
     width: 1.25vw;
     height: 1.25vw;
@@ -1349,6 +1350,59 @@ footer {
 }
 .case-swiper .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal{
     width: 73.6vw;
+}
+// post-herosection
+.post-herosection {
+    padding: 5.2vw 0;
+    background-color:#F1F1F1;
+}
+.post-herosection__wrapper {
+    display: flex;
+    gap: 3.1vw;
+}
+.post-herosection__img {
+    width: 41.6vw;
+}
+.post-herosection__undertitle {
+    display: inline-block;
+    margin-bottom: 1.36vw;
+    color: #1B8FFA;
+    font-size: 0.9vw;
+    font-weight: 600;
+    line-height: 150%; /* 27px */
+    letter-spacing: 0.18px;
+    border-bottom: 1px solid #1B8FFA;
+}
+.post-herosection__title {
+    margin-bottom: 2vw;
+    color: #1E1E1E;
+    font-size: 2vw;
+    font-weight: 600;
+    line-height: 135%; /* 54px */
+    letter-spacing: 0.4px;
+}
+.post-herosection__box-autor {
+    margin-bottom: 7.7vw;
+    display: flex;
+    gap: 1.25vw;
+}
+.post-herosection__box-autor-img {
+    width: 2.9vw;
+    height: 2.9vw;
+}
+.post-herosection__autor-name {
+    color: #1E1E1E;
+    font-size: 0.9vw;
+    font-weight: 600;
+    line-height: 150%; /* 27px */
+    letter-spacing: 0.18px;
+}
+.post-herosection__autor-time {
+    color: #8E8E8E;
+    font-size: 0.8vw;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.16px;
 }
 
 
