@@ -1404,7 +1404,51 @@ footer {
     line-height: 150%; /* 24px */
     letter-spacing: 0.16px;
 }
+// posts
+.posts {
+    padding: 5.2vw 0;
+    background-color:#F1F1F1;
 
+}
+.tabs-header-container {
+    margin-bottom: 3.6vw;
+    display: flex;
+    gap: 1.7vw;
+    // overflow-x: scroll;
+    // &::-webkit-scrollbar {
+    //     width: 0;
+    // }
+}
+.tab__title {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 0.9vw;
+    font-weight: 600;
+    line-height: 150%;
+    color: #B7B7B7;
+    transition: all .2s;
+    &:hover {
+        color: #0F0F0F;
+    }
+}
+.active-tab {
+    color: #0F0F0F;
+}
+
+.tab__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5.7vw;
+}
+.hidden-tab-content {
+    display: none;
+}
+.tabs-content__item {
+    width: 46%;
+}
 
 
 
