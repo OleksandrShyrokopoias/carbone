@@ -1410,8 +1410,19 @@ footer {
     background-color:#F1F1F1;
 
 }
-.tabs-header-container {
+.tabs__head-container {
     margin-bottom: 3.6vw;
+    display: flex;
+    justify-content: space-between;
+}
+.tabs__head {
+    color: #1E1E1E;
+    font-size: 2.5vw;
+    font-weight: 700;
+    line-height: 125%; /* 60px */
+    letter-spacing: 0.48px;
+}
+.tabs-header-container {
     display: flex;
     gap: 1.7vw;
     // overflow-x: scroll;
@@ -1430,6 +1441,7 @@ footer {
     line-height: 150%;
     color: #B7B7B7;
     transition: all .2s;
+    text-decoration: underline;
     &:hover {
         color: #0F0F0F;
     }
@@ -1448,6 +1460,9 @@ footer {
 }
 .tabs-content__item {
     width: 46%;
+}
+.posts__img {
+    width: 100%;
 }
 
 
