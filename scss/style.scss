@@ -1524,6 +1524,9 @@ footer {
     border-radius: 4px;
     border: 1px solid #0F0F0F;
 }
+.section-pagination__link-button:hover {
+    border: 1px solid #1B8FFA;
+}
 .section-pagination__link-button svg{
     position: relative;
     width: 1.6vw;
@@ -1535,6 +1538,26 @@ footer {
     font-size: 0.8vw;
     font-weight: 600;
     line-height: 150%; /* 24px */
+}
+.post-herosection__content-culture {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.post-herosection__content-descriptions {
+    width: 41.4vw;
+}
+.post-herosection__content-social {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.post-herosection__social-link {
+    width: 1.1vw;
+    height: 1.1vw;
+}
+.post-herosection__img-culture {
+    width: 100%;
 }
 
 
