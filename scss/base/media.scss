@@ -204,6 +204,7 @@
         font-size: 32px;
     }
     .services__box-item {
+        overflow: hidden;
         display: block;
     }
     .services__item {
@@ -458,6 +459,7 @@
        display: none;
     }
     .get-talk__right {
+        width: 100%;
         padding: 92px 16px;
     }
     //footer
@@ -522,7 +524,7 @@
     // about
     .header__white {
         padding-bottom: 20px;
-        background-color: #000;
+        background-color: #0F0F0F;
     }
     .header__white .menu__list-item{
         color: #f1f1f1;
@@ -580,9 +582,6 @@
     // industry
     .industry {
         padding: 90px 0;
-    }
-    .industry__wrapper {
-    
     }
     .industry__top {
         margin-bottom: 90px;
@@ -869,6 +868,52 @@
     }
     .post-herosection__autor-time {
         font-size: 16px;
+    }
+    .tabs__head-container {
+        margin-bottom: 35px;
+        flex-direction: column;
+    }
+    .tabs__head {
+        margin-bottom: 16px;
+        font-size: 24px;
+    }
+    .tab__title {
+        font-size: 14px;
+    }
+    .posts__item-box-link {
+        margin-bottom: 8px;
+    }
+    .posts__link-work {
+        font-size: 16px;
+    }
+    .posts__link {
+        display: inline-block;
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+    .posts__link svg {
+        display: none;
+    }
+    .post-herosection__autor-time {
+        font-size: 12px;
+    }
+    .section-pagination__container-button {
+        margin-bottom: 8px;
+        gap: 10px;
+    }
+    .section-pagination__link-button {
+        padding-top: 3px;
+        width: 95px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .section-pagination__link-button svg {
+        width: 15px;
+        height: 11px;
+        top: 2px;
+    }
+    .section-pagination__container-pagination {
+        font-size: 12px;
     }
 
     

@@ -4,7 +4,7 @@
 
 body {
     font-family:  'Zonapro', sans-serif;
-    background-color: #0F0F0F;
+    background-color: #FAFAFA;
     position: relative;
 }
 ul {
@@ -171,7 +171,6 @@ button {
     width: 0.9vw;
 }
 .delivered {
-    background-color: #fff;
     padding-top: 7.8vw;
     padding-bottom: 7.5vw;
 }
@@ -774,7 +773,7 @@ button {
     display: flex;
 }
 .get-talk__left {
-    width: 68vw;
+    width: 70%;
     padding: 6.7vw 0 6.7vw 11.9vw;
     background: url(../img/image/lets-background.png) no-repeat;
     background-size: cover;
@@ -807,6 +806,7 @@ button {
     opacity: 0.5;
 }
 .get-talk__right {
+    width: 30%;
     padding: 6.7vw 0 6.7vw 7.5vw;
     border-bottom: 1px solid #32322F;
     background: #0F0F0F;    
@@ -871,7 +871,6 @@ footer {
 }
 // about
 .about {
-    background-color: #E4E4E4;
     border-bottom: 1px solid #E4E4E4;
 }
 .header__white .logo-img{
@@ -941,10 +940,6 @@ footer {
 // industry
 .industry {
     padding: 9.3vw 0;
-    background-color: #E4E4E4;
-}
-.industry__wrapper {
-   
 }
 .industry__top {
     margin-bottom: 9.3vw;
@@ -1104,7 +1099,7 @@ footer {
 // made
 .made {
     padding: 7.8vw 0;
-    background-color:#F1F1F1;
+    background-color:#FAFAFA;
 }
 .made__header {
     margin-bottom: 5.2vw;
@@ -1200,7 +1195,7 @@ footer {
 // objectives
 .objectives {
     padding: 7.8vw 0;
-    background-color:#F1F1F1;
+    background-color:#FAFAFA;
 }
 .objectives__wrapper {
     margin-bottom: 5.2vw;
@@ -1227,7 +1222,7 @@ footer {
 }
 //below
 .below {
-    background-color:#F1F1F1;
+    background-color:#FAFAFA;
 }
 .below__wrapper {
     padding: 7.8vw 0;
@@ -1278,7 +1273,7 @@ footer {
 // case-study
 .case-study {
     padding: 7.8vw 0;
-    background-color:#F1F1F1;
+    background-color:#FAFAFA;
 }
 .case-study__title {
     margin-bottom: 5.2vw;
@@ -1354,7 +1349,7 @@ footer {
 // post-herosection
 .post-herosection {
     padding: 5.2vw 0;
-    background-color:#F1F1F1;
+    background-color:#FAFAFA;
 }
 .post-herosection__wrapper {
     display: flex;
@@ -1407,7 +1402,7 @@ footer {
 // posts
 .posts {
     padding: 5.2vw 0;
-    background-color:#F1F1F1;
+    background-color:#FAFAFA;
 
 }
 .tabs {
