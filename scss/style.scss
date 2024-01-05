@@ -1356,6 +1356,7 @@ footer {
     gap: 3.1vw;
 }
 .post-herosection__img {
+    object-fit: cover;
     width: 41.6vw;
 }
 .post-herosection__undertitle {
@@ -1552,7 +1553,12 @@ footer {
     height: 1.1vw;
 }
 .post-herosection__img-culture {
+    display: block;
     width: 100%;
+    object-fit: cover;
+}
+.culture__box-poster {
+    height: 41.6vw;
 }
 
 

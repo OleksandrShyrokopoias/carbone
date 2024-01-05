@@ -915,6 +915,28 @@
     .section-pagination__container-pagination {
         font-size: 12px;
     }
+    .post-herosection__content-social svg {
+        width: 20px;
+        height: 20px;
+    }
+    .post-herosection__content-culture {
+        flex-direction: column;   
+    }
+    .post-herosection__content-descriptions {
+        width: 100%;
+    }
+    .post-herosection__content-descriptions {
+        .post-herosection__box-autor {
+            margin-bottom: 35px;
+        }
+    }
+   
+    .post-herosection__content-social {
+        margin-bottom: 8px;
+        flex-direction: row;
+        gap: 20px;
+    }
+    
 
     
 
