@@ -1560,6 +1560,35 @@ footer {
 .culture__box-poster {
     height: 41.6vw;
 }
+// introduction
+.introduction {
+
+}
+.introduction__wrapper {
+    display: flex;
+    gap: 4.6vw;
+}
+.introducion__post {
+    padding-top: 6.25vw;
+    width: 44vw;
+    color: #1E1E1E;
+    font-size: 0.9vw;
+    font-weight: 400;
+    line-height: 171%;
+}
+.introduction__title {
+    margin-bottom: 2.6vw;
+    color: #1B8FFA;
+    font-size: 1.45vw;
+    font-weight: 700;
+    line-height: 140%; /* 39.2px */
+}
+.introduction-bold {
+    font-weight: 600;
+}
+.introduction__title-secondary {
+
+}
 
 
 
