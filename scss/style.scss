@@ -1576,6 +1576,9 @@ footer {
     font-weight: 400;
     line-height: 171%;
 }
+.introducion__post p {
+    margin-bottom: 2.3vw;
+}
 .introduction__title {
     margin-bottom: 2.6vw;
     color: #1B8FFA;
@@ -1587,7 +1590,97 @@ footer {
     font-weight: 600;
 }
 .introduction__title-secondary {
-
+    margin-bottom: 2.6vw;
+    color: #0F0F0F;
+    font-size: 1.25vw;
+    font-weight: 600;
+    line-height: 135%; /* 32.4px */
+}
+.development {
+    margin-bottom: 5.2vw;
+    padding: 3.1vw 4.4vw;
+    color: #F1F1F1;
+    background: #FAB81B;
+}
+.development__subtitle {
+    font-size: 0.8vw;
+    font-weight: 600;
+    line-height: 135%; /* 22.95px */
+}
+.development__title {
+    width: 22vw;
+    margin-top: 8.8vw;
+    margin-bottom: 4.6vw;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 135%; /* 54px */
+}
+.development__undertitle {
+    font-size: 1.2vw;
+    font-weight: 700;
+    line-height: 130%; /* 31.2px */
+}
+.development__title-title {
+    margin-bottom: 2.3vw;
+    color: #0F0F0F;
+    font-size: 1.25vw;
+    font-weight: 600;
+    line-height: 135%; /* 32.4px */
+}
+.development__list {
+    margin-bottom: 5.2vw;
+    padding-left: 1.1vw;
+    list-style-type: disc;
+    color:  #1E1E1E;
+    font-size: 1vw;
+    font-weight: 600;
+    line-height: 130%;
+}
+.development__list-item {
+    margin-bottom: 2.1vw;
+}
+.development__list-item:last-child{
+    margin-bottom: 0;
+}
+.introduction__link {
+    display: inline-block;
+    margin-bottom: 5.2vw;
+    color: #1E1E1E;
+    font-size: 0.9vw;
+    font-weight: 600;
+    line-height: 150%; /* 27px */
+    text-decoration: underline;
+}
+.introduction__link:hover {
+    opacity: 50%;
+}
+.introduction__banner {
+    margin-bottom: 5.2vw;
+}
+.quote-block {
+    margin-bottom: 2.9vw;
+    display: flex;
+    gap: 1.5vw;
+}
+.quote__quote {
+   width: 2.8vw;
+   height: 2.4vw;
+}
+.quote__text {
+    color: #1E1E1E;
+    font-size: 1vw;
+    font-weight: 600;
+    line-height: 130%; /* 26px */
+}
+.title__introduction {
+    margin-bottom: 2.6vw;
+    color: #1E1E1E;
+    font-size: 1.4vw;
+    font-weight: 700;
+    line-height: 140%; /* 39.2px */
+}
+.culture__partners {
+    margin-top: 10.2vw;
 }
 
 
