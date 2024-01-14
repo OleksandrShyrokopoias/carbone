@@ -871,6 +871,8 @@ footer {
 }
 // about
 .about {
+    position: relative;
+    z-index: 2;
     border-bottom: 1px solid #E4E4E4;
 }
 .header__white .logo-img{
@@ -1681,6 +1683,37 @@ footer {
 }
 .culture__partners {
     margin-top: 10.2vw;
+}
+.introduction__sidebar {
+    position: relative;
+}
+.introduction__sidebar-wrapper {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: auto;
+    padding: 6.2vw 2vw 2vw 2vw;
+    border-left: 1px solid  #E4E4E4;
+    border-right: 1px solid  #E4E4E4;
+    max-height: 52vw;
+}
+.sidebar__title {
+    margin-bottom: 1.56vw;
+    color: #0F0F0F;
+    font-size: 1vw;
+    font-weight: 600;
+    line-height: 130%; /* 26px */
+}
+.sidebar__link {
+    display: inline-block;
+    margin-bottom: 0.8vw;
+    color: #1E1E1E;
+    font-size: 0.8vw;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+.sidebar__link:hover {
+    color: #1B8FFA;
 }
 
 
