@@ -936,7 +936,52 @@
         flex-direction: row;
         gap: 20px;
     }
-    
+    .introduction__sidebar {
+        display: none;
+    }
+    .introduction__wrapper {
+        display: block;
+    }
+    .introducion__post {
+        padding-top: 6.25vw;
+        width: 100%;
+        font-size: 16px;
+    }
+    .introduction__title {
+        font-size: 26px;
+    }
+    .development__undertitle {
+        font-size: 20px;
+    }
+    .introduction__title-secondary {
+        font-size: 22px;
+    }
+    .development__subtitle {
+        font-size: 16px;
+    }
+    .development__title {
+        font-size: 36px;
+        width: 100%;
+    }
+    .development__title-title {
+        font-size: 20px;
+    }
+    .development__list {
+        font-size: 16px;
+        padding-left: 5.1vw;
+    }
+    .introduction__link {
+        font-size: 16px;
+    }
+    .quote__text {
+        font-size: 16px;
+    }
+    .title__introduction {
+        font-size: 26px;
+    }
+    .culture__partners .swiper-slide {
+        width: 100%;
+    }
 
     
 

@@ -771,6 +771,9 @@ button {
 //get-talk
 .get-talk {
     display: flex;
+    position: relative;
+    z-index: 2;
+    overflow-y: hidden;
 }
 .get-talk__left {
     width: 70%;
@@ -813,6 +816,9 @@ button {
 }
 //footer
 footer {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
     padding-top: 7.2vw;
     padding-bottom: 5.2vw;
     background: #0F0F0F;
@@ -1688,14 +1694,9 @@ footer {
     position: relative;
 }
 .introduction__sidebar-wrapper {
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: auto;
     padding: 6.2vw 2vw 2vw 2vw;
     border-left: 1px solid  #E4E4E4;
     border-right: 1px solid  #E4E4E4;
-    max-height: 52vw;
 }
 .sidebar__title {
     margin-bottom: 1.56vw;
@@ -1714,6 +1715,15 @@ footer {
 }
 .sidebar__link:hover {
     color: #1B8FFA;
+}
+.culture__partners .swiper-slide {
+   width: 40%;
+}
+.culture__partners .tabs-content__item {
+    width: 100%;
+}
+.culture__partners .swiper-wrapper {
+    gap: 5.72vw;
 }
 
 
